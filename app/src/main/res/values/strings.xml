@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mainview</string>
+    <string name="title_home">首页</string>
+    <string name="title_category">商品</string>
+    <string name="title_story">公益故事</string>
+    <string name="title_surprise">活动</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_mine">用户</string>
+
+</resources>
