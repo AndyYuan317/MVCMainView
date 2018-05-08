@@ -35,7 +35,6 @@ public class MallApplication extends AppCompatActivity {
     }
     /**
      * 获取首页Fragment实例需要的position
-     *
      * @param position
      * @return
      */

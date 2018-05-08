@@ -20,12 +20,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This is SurpriseFragment!"
+            android:text="@string/title_third"
             android:textSize="30sp"
             android:layout_gravity="center"
-            android:gravity="center"
-
-            />
+            android:gravity="center" />
     </LinearLayout>
 
 </LinearLayout>

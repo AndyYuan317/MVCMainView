@@ -6,32 +6,22 @@
     <!--顶栏-->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="42dp">
+        android:layout_height="60dp">
 
         <TextView
             android:id="@+id/tool_text"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:gravity="center"
-            android:text="@string/title_category"
+            android:text="@string/title_second"
             android:textColor="@color/titleBlack" />
-
-        <ImageView
-            android:id="@+id/category_search"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentEnd="true"
-            android:layout_centerInParent="true"
-            android:paddingEnd="16dp" />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="1px"
             android:layout_alignParentBottom="true"
             android:background="@color/titleGray" />
     </RelativeLayout>
-    <!--分类-->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/cate_rv"
         android:layout_width="match_parent"

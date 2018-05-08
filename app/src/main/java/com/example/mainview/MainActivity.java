@@ -63,16 +63,13 @@ private ViewPager viewPager;
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
             }
-
             @Override
             public void onPageSelected(int position) {
                 BaseFragment fragment = (BaseFragment) mFragmentAdapter.getItem(position);
                 tabs.updateSelected(position);//monkey测试发现index错乱
-//                fragment.setStatusBarColor(MainActivity.this);
+                // fragment.setStatusBarColor(MainActivity.this);
             }
-
             @Override
             public void onPageScrollStateChanged(int state) {
 
@@ -92,8 +89,8 @@ private ViewPager viewPager;
     private class FragmentAdapter extends FragmentPagerAdapter {
 
         FragmentAdapter(FragmentManager fm) {
-
             super(fm);
+
         }
 
         @Override

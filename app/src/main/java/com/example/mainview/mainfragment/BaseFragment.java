@@ -1,6 +1,5 @@
 package com.example.mainview.mainfragment;
 
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 
 /**
@@ -8,12 +7,6 @@ import android.support.v4.app.Fragment;
  */
 
 public class BaseFragment extends Fragment {
-    public void setStatusBarColor(Activity activity){
-
-    }
-    public void setContentItem(int i){
-
-    }
     @Override
     public void onDestroy(){
         super.onDestroy();

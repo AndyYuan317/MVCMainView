@@ -2,6 +2,11 @@
     <string name="app_name">Mainview</string>
     <string name="title_home">首页</string>
     <string name="title_category">商品</string>
+    <string name="title_second">这是商品碎片页面</string>
+    <string name="title_first">这是首页的碎片</string>
+    <string name="title_third">这是第三页活动的碎片</string>
+    <string name="title_forth">这是购物车碎片</string>
+    <string name="title_last">这是用户碎片</string>
     <string name="title_story">公益故事</string>
     <string name="title_surprise">活动</string>
     <string name="title_cart">购物车</string>

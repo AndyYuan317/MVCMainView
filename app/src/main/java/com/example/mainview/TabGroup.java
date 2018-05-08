@@ -45,7 +45,6 @@ public class TabGroup extends LinearLayout {
         initView(context);
     }
 
-
     private void initView(Context context) {
         View view = LayoutInflater.from(context).inflate(R.layout.tab_group, this, true);
         mHome = view.findViewById(R.id.tab_home);
@@ -53,7 +52,6 @@ public class TabGroup extends LinearLayout {
         mSurprise = view.findViewById(R.id.tab_surprise);
         mCart = view.findViewById(R.id.tab_cart);
         mMine = view.findViewById(R.id.tab_mine);
-
 
         mLabelColor = getResources().getColor(R.color.gray);
         mLabelColorSelected = getResources().getColor(R.color.colorPrimary);
@@ -88,7 +86,6 @@ public class TabGroup extends LinearLayout {
             ViewGroup item = mItems[i];
             final int index = i;
             item.setOnClickListener(new OnClickListener() {
-
                 @Override
                 public void onClick(View v) {
                     changeSelected(index);
@@ -104,7 +101,6 @@ public class TabGroup extends LinearLayout {
 
     /**
      * 修改主页面的底部标签选中，并且改变对应的页面内容
-     *
      * @param index 顺序
      */
     public void changeSelected(int index) {
@@ -193,6 +189,4 @@ public class TabGroup extends LinearLayout {
          */
         boolean onTabSelected(int index);
     }
-
-
 }
