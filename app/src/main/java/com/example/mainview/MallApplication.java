@@ -32,7 +32,16 @@ public class MallApplication extends AppCompatActivity {
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
         builder.detectFileUriExposure();
-
+    }
+    /**
+     * 获取首页Fragment实例需要的position
+     *
+     * @param position
+     * @return
+     */
+    public static int getPostion(int position) {
+        if (!MallApplication.hasPromotion && position > 1) position += 1;
+        return position;
     }
 }
 
